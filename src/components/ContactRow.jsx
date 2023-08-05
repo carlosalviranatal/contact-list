@@ -3,17 +3,12 @@ import ContactList from "./ContactList";
 const ContactRow = ({contact}) => {
 
     return (
-        contact.map((contact, index) => {
-            return (
             <tr>
                 <td>{contact.name}</td>
                 <td>{contact.email}</td>
-                <td>{contact.number}</td>
+                <td>{contact.phone}</td>
             </tr>
-            )
-        })
-    );
-
-};
+            );
+}
 
 export default ContactRow;

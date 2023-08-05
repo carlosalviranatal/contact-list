@@ -23,13 +23,13 @@ function ContactList() {
                 <tr>
                     <td>Name</td>
                     <td>Email</td>
-                    <td>Number</td>
+                    <td>Phone</td>
                 </tr>
-                <tr>
                     { 
-                        
+                        contacts.map((contact) => {
+                            return <ContactRow key={contact.id} contact={contact} />
+                        })
                     }
-                </tr>
             </tbody>
         </table>
     );
