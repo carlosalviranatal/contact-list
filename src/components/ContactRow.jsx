@@ -1,6 +1,6 @@
 import ContactList from "./ContactList";
 
-const ContactRow = ({contact}) => {
+export default function ContactRow({contact}) {
 
     return (
             <tr>
@@ -10,5 +10,3 @@ const ContactRow = ({contact}) => {
             </tr>
             );
 }
-
-export default ContactRow;
