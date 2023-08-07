@@ -2,6 +2,7 @@ import React from "react";
 import App from "../App";
 import { useState, useEffect } from "react";
 import ContactRow from "./ContactRow";
+import SelectedContact from "./SelectedContact";
 
 {/* test contacts not needed anymore
 const dummyContacts = [
@@ -10,7 +11,7 @@ const dummyContacts = [
   { id: 3, name: "BB-8", phone: "888-888-8888", email: "bb8@droids.com" },
 ];*/}
 
-export default function ContactList({ setSelectedContactId }) {
+export default function ContactList({ setSelectedContactId}) {
   const [contacts, setContacts] = useState([]);
   console.log(contacts);
   const { error, setError } = useState(null);
