@@ -29,7 +29,7 @@ export default function SelectedContact({
   }
 
   return (
-    <>
+    <div className='container'>
       <table>
         <thead>
           <tr colSpan="4">{contact.name}</tr>
@@ -50,6 +50,6 @@ export default function SelectedContact({
         </tbody>
       </table>
       <button onClick={handleBackButtonClick}>Back to List</button>
-    </>
+    </div>
   )
 }
