@@ -1,7 +1,3 @@
-import ContactList from './ContactList'
-import App from '../App'
-import SelectedContact from './SelectedContact'
-
 export default function ContactRow({ setSelectedContactId, contact }) {
   return (
     <tr

@@ -1,6 +1,3 @@
-import ContactList from './ContactList'
-import ContactRow from './ContactRow'
-import App from '../App'
 import { useState, useEffect } from 'react'
 
 export default function SelectedContact({

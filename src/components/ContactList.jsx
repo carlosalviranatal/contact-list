@@ -1,8 +1,5 @@
-import React from "react";
-import App from "../App";
 import { useState, useEffect } from "react";
 import ContactRow from "./ContactRow";
-import SelectedContact from "./SelectedContact";
 
 {/* test contacts not needed anymore
 const dummyContacts = [
