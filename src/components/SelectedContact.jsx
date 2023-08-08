@@ -24,6 +24,10 @@ export default function SelectedContact({
     fetchData()
   }, [])
 
+  const handleBackButtonClick = () => {
+    setSelectedContactId(null);
+  }
+
   return (
     <>
       <table>
@@ -45,6 +49,7 @@ export default function SelectedContact({
           </tr>
         </tbody>
       </table>
+      <button onClick={handleBackButtonClick}>Back to List</button>
     </>
   )
 }
